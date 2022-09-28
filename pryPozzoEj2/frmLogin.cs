@@ -106,7 +106,7 @@ namespace pryPozzoEj2
                         }
                         else
                         {
-                            MessageBox.Show("Acceso Denegado");
+                            MessageBox.Show("Acceso Denegado", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                             intentos++;
                             if(intentos == 2)
                             {
